@@ -63,4 +63,8 @@ public class ValidateInput
         return syrup.matches("[A-Z][a-z]+ Syrup");
     }
 
+    public static boolean validBudget(String budget)
+    {
+        return budget.matches("[$][0-9]{1,2}[.][0-9]{2}");
+    }
 }

@@ -1,5 +1,4 @@
 //RegEx is used for text validation. Are we doing it in the correct format?
-
 public class Main
 {
     public static void main(String[] args)
@@ -164,12 +163,23 @@ public class Main
         System.out.println("syrup: " + ValidateInput.validSyrup(syrup5));
         System.out.println("Strawberry Syrup: " + ValidateInput.validSyrup(syrup6));
         System.out.println("Caramel syrup: " + ValidateInput.validSyrup(syrup7));
+
+
+        //Budgets
+        String budget1 = "0.95$";
+        String budget2 = ".10";
+        String budget3 = ".109";
+        String budget4 = "$26";
+        String budget5 = "10.99";
+        String budget6 = "90.";
+        String budget7 = "$5.00";
+        System.out.println("\nWhich Budgets Are Valid?");
+        System.out.println("0.95$: " + ValidateInput.validBudget(budget1));
+        System.out.println(".10: " + ValidateInput.validBudget(budget2));
+        System.out.println(".109: " + ValidateInput.validBudget(budget3));
+        System.out.println("$26: " + ValidateInput.validBudget(budget4));
+        System.out.println("10.99: " + ValidateInput.validBudget(budget5));
+        System.out.println("90.: " + ValidateInput.validBudget(budget6));
+        System.out.println("$5.00: " + ValidateInput.validBudget(budget7));
     }
 }
-
-/*
-String addr1 = "123 KitKat Street";
-        String addr2 = "my house";
-        String addr3 = "123 KitKat St.";
-        String addr4 = "13135 Van Buren Blvd";
-*/
