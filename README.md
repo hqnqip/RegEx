@@ -9,3 +9,4 @@ This assignment is meant for experimenting with RegEx and text-validation using 
 
 ### Credits / Sources
 Reference to Starbucks.
+Developed through IntelliJ (RegEx).
